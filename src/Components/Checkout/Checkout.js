@@ -11,6 +11,7 @@ const Checkout = () => {
         <div>
           <Form onSubmit = {handleCheckout} className='mx-auto my-5 border p-4 rounded'>
                 <h1 className='text-primary'>CheckOut</h1>
+                <hr />
                 <Form.Group className="mb-3" controlId="formBasicEmail">
 
                 <Form.Control type="text" placeholder="Name" />

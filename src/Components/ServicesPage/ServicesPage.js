@@ -6,7 +6,6 @@ const ServicesPage = (props) => {
 
     const {header, img, serviceInfo} = props.service;
 
-
     return (
         <div className="all-cards mx-auto">
             <div className="cards">
