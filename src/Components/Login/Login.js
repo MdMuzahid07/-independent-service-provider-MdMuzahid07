@@ -34,6 +34,11 @@ const Login = () => {
     }
 
 
+    const resetPassword = () => {
+        
+    }
+
+
     return (
         <div className='container'>
             <Form onSubmit = {handleLogin} className='mx-auto my-5 border p-4 rounded'>
@@ -47,6 +52,9 @@ const Login = () => {
                 <input type="submit" value="Login" />
                 <p>
                     New User? <Link className='text-decoration-none' to = '/signup'>Please Sign Up</Link>
+                </p>
+                <p>
+                    Forget password? <button onClick={resetPassword}>Reset Password</button>
                 </p>
             </Form>
         </div>
