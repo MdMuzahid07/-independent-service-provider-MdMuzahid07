@@ -1,0 +1,19 @@
+.background-image {
+    height: 500px;
+    background-image: url(../../images/bg.jpg);
+    background-position: center;
+}
+
+.quotes {
+    color: white;
+    background-color: rgb(255, 38, 0);
+}
+
+.free-course-offer {
+    background-image: url(../../images/background-image.jpg);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    top: 10rem;
+}
