@@ -3,14 +3,18 @@ import { Button, Form } from 'react-bootstrap';
 import { Link } from 'react-router-dom';
 import google from '../../images/logo/google-logo.png';
 import { getAuth, GoogleAuthProvider, signInWithPopup } from "firebase/auth";
+import app from '../../firebase.init';
 
-const auth = getAuth();
+const auth = getAuth(app);
+
 
 const SignUp = () => {
     const [name, setName] = useState('');
     const [email, setEmail] = useState('');
     const [password, setPassword] = useState('');
     const [user, setUser] = useState('');
+    // const [user, setUser] = useState('');
+
 
     const googleAuthProvider = new GoogleAuthProvider();
 
@@ -31,13 +35,16 @@ const SignUp = () => {
         signInWithPopup(auth, googleAuthProvider)
         .then((result) => {
             const user = result.user;
-            console.log(user);
+            setUser(user);
         })
         .catch((error) => {
             console.error(error);
         })
     }
 
+    if(user) {
+        
+    }
 
 
 
