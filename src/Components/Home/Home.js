@@ -39,7 +39,7 @@ const Home = () => {
             </marquee>
             <div className="free-course-offer  py-5">
                 <div className="container">
-                    <h1 className='text-warning'>6 months Fitness Course</h1>d
+                    <h1 className='text-warning'>5 months Fitness Course</h1>d
                     <h4 className='text-warning'>Start working on your body today, and with our individual fitness program, already in 90 days you    will see a totally different girl in the mirror.</h4>
                     <button className='btn btn-danger mt-2 rounded-pill'>
                         <Link className='text-white text-decoration-none' to = "/Sign Up">Get Appointment</Link>

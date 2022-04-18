@@ -9,8 +9,8 @@ import Header from './Components/Header/Header';
 import Home from './Components/Home/Home';
 import Login from './Components/Login/Login';
 import NotFound from './Components/NotFound/NotFound';
+import RequireAuth from './Components/RequreAuth/RequireAuth';
 import SignUp from './Components/SignUp/SignUp';
-import RequireAuth from './Pages/Login/RequireAuth/RequireAuth';
 
 
 function App() {

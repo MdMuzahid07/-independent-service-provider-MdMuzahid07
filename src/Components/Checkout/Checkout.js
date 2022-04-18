@@ -9,7 +9,7 @@ const Checkout = () => {
 
     return (
         <div>
-          <Form onSubmit = {handleCheckout} className='w-50 mx-auto my-5 border p-4 rounded'>
+          <Form onSubmit = {handleCheckout} className='mx-auto my-5 border p-4 rounded'>
                 <h3 className='text-primary'>CheckOut</h3>
                 <Form.Group className="mb-3" controlId="formBasicEmail">
 
