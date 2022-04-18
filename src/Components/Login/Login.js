@@ -40,7 +40,6 @@ const Login = () => {
 
     const resetPassword = async() => {
         const email = emailRef.current.value;
-        alert(email);
         if(email) {
             await sendPasswordResetEmail(email);
             toast("Send Email");
